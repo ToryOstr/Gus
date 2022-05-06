@@ -50,7 +50,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 573px;
-    height: 520px;
+    height: 75%;
+    justify-content: center;
     background-color: #fff;
     margin-top: 56px;
     margin-left: 95px;
