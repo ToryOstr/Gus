@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: auto;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     background-color: rgba(27, 29, 31, 0.7); 
 }
@@ -19,10 +19,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 573px;
-    height: 524px; 
-    background-color: #fff;
-    margin: auto; 
+    height: auto; 
+    background-color: #fff; 
     position: relative;
+    margin: 96px auto;
    }
 
 .header {
@@ -43,6 +43,31 @@ body {
     position: absolute;
     top: 24px;
     right: 24px;
-    
+}
 
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    
 }
