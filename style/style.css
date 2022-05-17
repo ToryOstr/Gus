@@ -106,6 +106,16 @@ h1 {
     
 }
 
+.button:hover {
+    cursor: pointer;
+    background-color: #ff893b;
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+}
+
+.button:active {
+    background-color: #e95d00;
+}
+
 .main-gus {
     width: 668px;
 }
