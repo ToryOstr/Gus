@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.wrapper {
+.modal1 {
     display: flex;
     justify-content: space-around;
     width: auto;
@@ -15,7 +15,7 @@ body {
     background-color: rgba(27, 29, 31, 0.7); 
 }
 
-.modal-container {
+.modal1-container {
     display: flex;
     flex-direction: column;
     width: 573px;

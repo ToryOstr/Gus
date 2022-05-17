@@ -47,7 +47,7 @@ body {
 .introduction {
     display: flex;
     flex-direction: column;
-    padding: 120px 24px 0 95px;
+    padding: 120px 24px 0 90px;
    
 } 
 
@@ -93,21 +93,17 @@ h1 {
 }
 
 .button {
-    display: flex;
-    margin: 48px 0 60px 56px;
-    width: 172px;
-    height: 48px;
-    border-radius: 8px;
-    background: #FF6B0A;
-}
-
-.button-link {
     display: block;
-    margin: 12px 24px;
+    margin: 48px auto 60px 56px;
+    padding: 12px 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    border-radius: 8px;
+    background: #FF6B0A;
+    border: none;
     color: #fff;
+    
 }
 
 .main-gus {
@@ -234,3 +230,5 @@ h4 {
     color: #1B1D1F;
 
 }
+
+/* modal 1 */
