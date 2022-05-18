@@ -106,6 +106,7 @@ h1 {
     
 }
 
+.button:focus,
 .button:hover {
     cursor: pointer;
     background-color: #ff893b;

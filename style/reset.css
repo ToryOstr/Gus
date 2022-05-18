@@ -53,3 +53,11 @@ button::-moz-focus-inner {
 	border: 0;
 }
 
+:focus{
+	/* прибрати стандартну рамку в	фокусі */
+	outline: none;
+	/* ставлю рамку яка краще пасує до	дизайну */
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgb(0, 0, 0,	0.8);
+}
+	
