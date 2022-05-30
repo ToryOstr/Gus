@@ -1,95 +1,162 @@
 :root {
-    --gradient: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%) 0 0 fixed;
-    --main-text-color: #1B1D1F;
-    --text-button: #ffffff;
-    --bg-button: #FF6B0A;
+  --gradient: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%) 0 0 fixed;
+  --main-text-color: #1B1D1F;
+  --text-button: #ffffff;
+  --bg-button: #FF6B0A;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--main-text-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
 }
 .logo-goit {
-    display: block;
-    padding: 32px 0 56px 0;
-    background: var(--gradient);
+  display: block;
+  padding: 32px 0 56px 0;
+  background: var(--gradient);
 
 }
 .logo-container{
-    width: 1200px;
-    margin: 0 auto;
-    vertical-align: middle;
+  width: 1170px;
+  margin: 0 auto;
+  vertical-align: middle;
 
 }
 
 .logo {
-    display: inline-block;
-    height: 32px;  
-    vertical-align: middle;
+  display: inline-block;
+  height: 32px;  
+  vertical-align: middle;
 }
 
 .text-logo {
-    display: inline-block;
-    width: 125px;
-    height: 30px;
-    text-align: left;
-    margin-left: 16px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.25;
-    vertical-align: middle;
+  display: inline-block;
+  width: 125px;
+  height: 30px;
+  text-align: left;
+  margin-left: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+  vertical-align: middle;
 
 } 
-
+/*section gradient*/
 .gradient{
-    background: var(--gradient);
-    padding-bottom: 80px;
+  background: var(--gradient);
+  padding-bottom: 80px;
 }
 .tech-container {
-    display: block;
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
+  display: block;
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
 }
 .main-gus {
-    position: absolute;
-    width: 668px;
-    top: -112px;
-    right: -74px;
+  position: absolute;
+  width: 668px;
+  top: -112px;
+  right: -85px;
 }
 .text-container {
-    width: 573px;
-    padding: 60px 56px;
-    background: #ffffff;
+  width: 573px;
+  padding: 60px 56px;
+  background: #ffffff;
 }
 .salute {
-    margin-bottom: 16px;
-    font-weight: 600;
+  margin-bottom: 16px;
+  font-weight: 600;
 }
 .start {
-    margin-bottom: 48px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1;
-    color: #FF6B0A;
+  margin-bottom: 48px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  color: #FF6B0A;
 }
 
 h1 {
-    margin-bottom: 24px;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 1.25;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
 }
 
 .text-description {
-    width: 440px;
-    margin-bottom: 48px;
+  width: 440px;
+  margin-bottom: 48px;
 }
 .button {
-    padding: 12px 24px;
-    border-radius: 8px;
-    color: var(--text-button);
-    background-color: var(--bg-button);
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: var(--text-button);
+  background-color: var(--bg-button);
+}
+.button:focus,
+.button:hover {
+  background-color: #ee5f00;
+}
+/*section fakts*/
+.trident {
+  display: block;
+  margin: 52px auto 16px;
+}
+
+.fakts-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 2.08;
+  text-align: center;
+}
+.fakts {
+  width: 875px;
+  margin: 16px auto 24px;
+  text-align: center;
+}
+.gus-options{
+  display: block;
+  width: 1170px;
+  margin: 0 auto 72px;
+
+}
+.option1,
+.option2,
+.option3 {
+  display: inline-block;
+  width: 374px;
+  height: 538px;
+  vertical-align: top;
+}
+.option2 {
+  margin: 0 19px;
+}
+h4 {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+
+}
+.text-descr-contaner {
+  width: 280px;
+  margin: 0 auto;
+
+}
+.footer-content {
+  width: 1170px;
+  padding: 72px 0;
+  margin: 0 auto 72px;
+  background: var(--gradient);
+}
+.adieus {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 2.08;
+  text-align: center;
+}
+.goose-target {
+  width: 875px;
+  margin: 16px auto 72px;
+  text-align: center;
 }
