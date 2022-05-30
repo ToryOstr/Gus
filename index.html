@@ -30,7 +30,7 @@
                   <h1>Бандерогусь</h1>
                   <p class="text-description"> Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!
                   </p>                     
-                  <button type="submit" class="button"> Запустити гуся</button>
+                  <button id="open-modal" type="submit" class="button"> Запустити гуся</button>
               </div>
               <!-- main-gus -->
               <img class="main-gus" src="./img/gus.png" alt="Бандерогусь">
@@ -81,12 +81,48 @@
   </main>    
   <footer class="footer">
       <div class="footer-content">
-          <img  class="trident" src="./img/trezub.png" alt="Тризуб">
+          <img  class="f-trident" src="./img/trezub.png" alt="Тризуб">
           <p class="adieus">Перемога завжди за  нами!</p>
           <p class="goose-target">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
       </div>
   </footer>
   <!-- modal 1 -->
+  <section class="modal1" >
+    <div class="modal1-container">
+          <header>
+              <img  class="modal-trident" src="./img/trezub.png" alt="Тризуб">
+              <button class="close-button" type="button">
+                  <img src="./img/heroicons-solid_x.png" alt="close">
+              </button>
+          </header>
+          <div class="modal-content">
+              <p class="modal-header">Поділися, будь ласка, поштою 
+              <span class="call-to-action">та запиши гуся до бандерозагону</span></p> 
+              <form class="form" action="" method="get">
+                  <label class="label-input" for="gus-name">Ім'я</label>
+                  <input class="form-input" tabindex="1" type="text" name="Ім'я" id="gus-name">
+                  <label class="label-input"  for="user-email">E-mail</label>
+                  <input class="form-input" tabindex="2" type="email" name="email" id="user-email">
+
+                  <button tabindex="3" type="submit" class="button"> Запустити гуся</button>
+              </form>
+          </div>
+    </div>
+  </section>
+  <!-- modal-succes -->
+<section class="modal-succes">
+  <div class="modal-container">
+      <header>
+        <img  class="modal-trident" src="./img/trezub.png" alt="Тризуб">
+        <button class="close-button" type="button">
+            <img src="./img/heroicons-solid_x.png" alt="close">
+        </button>
+      </header>
+      <div class="modal-content">
+        <p class="modal-header">Дякуємо, гусь успішно запущений <span class="call-to-action">Слава Україні! Героям Слава!</span></p>
+      </div>
+  </div>
+</section>
   
 </body>
 </html>
