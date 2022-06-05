@@ -90,6 +90,7 @@ h1 {
   margin-bottom: 48px;
 }
 .button {
+  font-size: 16px;
   padding: 12px 24px;
   border-radius: 8px;
   color: var(--text-button);
@@ -167,9 +168,7 @@ h4 {
   margin: 16px auto 72px;
   text-align: center;
 }
-
-
-/* madal1 */
+/* modal1 */
 .modal1 {
   display: block;
   width: 100%;
@@ -177,10 +176,7 @@ h4 {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 122px 0;
   background-color: var(--modal-bg); 
-  pointer-events: none;
-  opacity: 0;
 }
 
 .modal1-container {
@@ -188,7 +184,15 @@ h4 {
   position: relative;
   width: 573px;
   padding: 32px 90px 60px 90px;
-  margin: auto;
+  margin: 10% auto;
+  background-color: #fff; 
+}
+.modal1-succes-container {
+  display: block;
+  position: relative;
+  width: 573px;
+  padding: 32px 65px 56px;
+  margin: 10% auto;
   background-color: #fff; 
 }
 
@@ -205,15 +209,29 @@ h4 {
   right: 24px;
   background-color: transparent;
 }
+.modal-content {
+  display: block;
+  width: 387px;
+
+}
 .modal-header {
-  width: 444px;
-  margin: 32px auto 0;
+  width: 387px;
+  margin-top: 32px;
   text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 1;
   color: var(--modal-text-color);
-} 
+}
+.modal-succes-header {
+  width: 444px;
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--modal-text-color);
+}
 .call-to-action {
   display: block;
   margin-top: 12px;
@@ -249,7 +267,7 @@ h4 {
 }
 .form > .button {
   display: block;
-  width: auto;
+  width: 172px;
   margin: 40px auto 0;
 }
 /* modal-succes */
@@ -261,9 +279,7 @@ h4 {
   top: 0;
   left: 0;
   padding: 122px 0;
-  background-color: var(--modal-bg); 
-  pointer-events: none;
-  opacity: 0;
+  background-color: var(--modal-bg);
 }
 .modal-container {
   display: block;
@@ -271,13 +287,9 @@ h4 {
   width: 573px;
   padding: 32px 90px 60px 90px;
   margin: auto;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 
 
 
-.modal-active{
-  pointer-events: all;
-  opacity: 1;
-}
